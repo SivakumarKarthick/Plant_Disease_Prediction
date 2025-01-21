@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 import tensorflow as tf
 import numpy as np
 
+
 # Load your trained model
 model = tf.keras.models.load_model('./our-model1.h5')  # Replace with your model's path
 
